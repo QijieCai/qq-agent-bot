@@ -1,11 +1,12 @@
 {
   "name": "qq-agent-bot",
   "version": "1.0.0",
+  "type": "module",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "qq-guild-sdk": "^2.0.0"
+    "ws": "^8.18.0"
   }
 }
